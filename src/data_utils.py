@@ -101,7 +101,7 @@ def get_train_val_sets(
         X_train,  # feature matrix to be partitioned
         y_train,  # target vector to be partitioned
         test_size=0.2,  # allocate 20% of samples to validation
-        random_state=2025,  # fixed seed for reproducibility across runs
+        random_state=42,  # fixed seed for reproducibility across runs
         shuffle=True,  # shuffle before splitting to avoid ordered bias
     )
 
